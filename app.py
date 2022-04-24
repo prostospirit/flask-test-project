@@ -76,11 +76,3 @@ def create():
 
 if __name__ == '__main__':
     app.run()
-
-# Task:
-# implement based on hexagonal architecture
-# mamba + expects + mocks tests for the service
-# Reference:
-# https://medium.com/@vsavkin/hexagonal-architecture-for-rails-developers-8b1fee64a613
-# https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)
-# https://www.youtube.com/watch?v=tg5RFeSfBM4

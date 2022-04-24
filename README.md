@@ -1,27 +1,48 @@
-1. Create virtualenv.
-example: python3 -m venv env-name
+## Task:
+implement based on hexagonal architecture
 
-2. Activate it.
+mamba + expects + mocks tests for the service
 
-3. Go to the project folder
+Reference:
+
+https://medium.com/@vsavkin/hexagonal-architecture-for-rails-developers-8b1fee64a613
+https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)
+https://www.youtube.com/watch?v=tg5RFeSfBM4
+
+## Installation
+
+1. Go to the project folder
 ```sh
 cd path/to/flask-test-project
 ```
-3. Install requirement packages:
+
+2. Create virtualenv.
+```sh
+python3 -m venv env
+```
+
+3. Activate it.
+```sh
+source env/bin/activate
+```
+
+5. Install requirement packages:
 ```sh
 pip install -r requirements.txt
 ```
 
 4. Create db:
 ```sh
-(venv) $ python
+(venv) $ python3
 >>> from app import db
 >>> db.create_all()
 ```
 
-Run app command:
+## Run
+
+Run app:
 ```sh
-python app.py
+python3 app.py
 ```
 
 Run tests example command:
