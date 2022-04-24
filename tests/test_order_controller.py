@@ -1,8 +1,8 @@
-from expects import expect, have_property, be_callable, equal
+from expects import be_callable, equal, expect, have_property
 from mamba import description, it
 from mockito import mock, when
 
-from app import Order, OrderController, OrderRepository, db
+from app import Order, OrderController, OrderRepository
 
 with description('Test OrderController') as self:
     with it('has an order creation method'):

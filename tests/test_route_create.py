@@ -1,6 +1,6 @@
-from expects import expect, equal
+from expects import equal, expect
 from mamba import description, it
-from mockito import ANY, when, mock
+from mockito import ANY, mock, when
 
 import app
 from app import Order, OrderController
